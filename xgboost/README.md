@@ -27,13 +27,14 @@ python predict.py models:/xgboost_wine/production
 ```
 
 ```
-=== mlflow.xgboost.load_model
-model: <xgboost.core.Booster object at 0x113678b70>
-predictions: [5.3752966 5.2566967 5.4596467 ... 5.347645  6.682991  6.0259304]
 
-=== mlflow.pyfunc.load_model
-model: <mlflow.xgboost._XGBModelWrapper object at 0x10e9eb198>
-predictions: [5.3752966 5.2566967 5.4596467 ... 5.347645  6.682991  6.0259304]
+To Run XGB model
+python XGBoost_demo.py --experiment_name xgboost --estimators 30000 --max_depth 10 --min_child_weight 2
+
+To Run Elastic Net model
+python ElasticNet_demo.py --experiment_name Elastic_net --alpha 1 ----l1_ratio 1
+
+
 ```
 
-
+## made changes for Demo
