@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/shachari/mycode/mflow_demo/xgboost/mlruns/1/ca6859ad4e874861a16d9d832f59310d/artifacts
+end_time: 1666347439026
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: ca6859ad4e874861a16d9d832f59310d
+run_uuid: ca6859ad4e874861a16d9d832f59310d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1666347434362
+status: 3
+tags: []
+user_id: shachari
