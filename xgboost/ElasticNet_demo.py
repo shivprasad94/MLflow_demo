@@ -27,6 +27,14 @@ def build_data(data_path):
     return X_train, X_test, y_train, y_test 
 
 def train(data_path, model_name,alpha,l1_ratio):
+    """Code for Training the ElasticNet model
+
+    Args:
+        data_path (string): Path to the Dataset
+        model_name (string): Name of the model
+        alpha (float): Hyperparameter which can be set via command line
+        l1_ratio (float): Hyperparameter which can be set via command line
+    """
     X_train, X_test, y_train, y_test = build_data(data_path)
     with mlflow.start_run() as run:
         run_id = run.info.run_id

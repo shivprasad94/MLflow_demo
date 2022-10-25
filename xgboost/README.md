@@ -32,9 +32,9 @@ To Run XGB model
 python XGBoost_demo.py --experiment_name xgboost --estimators 30000 --max_depth 10 --min_child_weight 2
 
 To Run Elastic Net model
-python ElasticNet_demo.py --experiment_name Elastic_net --alpha 1 ----l1_ratio 1
+python ElasticNet_demo.py --experiment_name Elastic_net --alpha 1 --l1_ratio 1
 
 
 ```
 
-## made changes for Demo
+## made changes for my demo today ar 6:42
